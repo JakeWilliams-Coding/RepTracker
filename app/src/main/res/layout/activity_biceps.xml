@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backButtonbiceps"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"
+        android:background="@color/black"
+        android:src="@drawable/baseline_keyboard_double_arrow_left_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#CCCCCC"
+        app:layout_constraintTop_toBottomOf="@+id/backButtonbiceps" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="15dp"
+            android:layout_marginLeft="15dp"
+            android:autoSizeMinTextSize="48sp"
+            android:text="Click The Exercise For Instructions"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/buttonpreachercurl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="start"
+            android:textColor="@color/white"
+            android:text="Preacher Curl"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonhammercurl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="start"
+            android:textColor="@color/white"
+            android:text="Hammer Curl"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttoncablebicep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="start"
+            android:textColor="@color/white"
+            android:text="Cable Bicep Curl"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttoncablebarbell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="start"
+            android:textColor="@color/white"
+            android:text="Cable Barbell Curl"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonbarbellbicep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="start"
+            android:textColor="@color/white"
+            android:text="Barbell Bicep Curl"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttondumbbellbicep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="start"
+            android:textColor="@color/white"
+            android:text="Dumbbell Bicep Curl"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
